@@ -11,7 +11,7 @@ MongoVPN (Backend) - приложение для подключения к уд�
 
 1. Клонировать репозиторий:
     ```
-    git clone https://github.com/bosonhiiggs/MT-Server.git
+    git clone https://github.com/bosonhiiggs/MagmaVPN.git
     ```
 2. Установить зависимости из файла:
     ```
