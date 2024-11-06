@@ -1,8 +1,9 @@
 from pymongo.mongo_client import MongoClient
 
+from app.config.config import DB_HOST
 
 # Ссылка на сервер MongoDB
-uri = "mongodb://localhost:27017/"
+uri = DB_HOST
 # Объект кластера базы данных
 client = MongoClient(uri)
 

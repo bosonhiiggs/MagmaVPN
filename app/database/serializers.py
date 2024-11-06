@@ -7,5 +7,5 @@ def user_entity(user_item) -> dict:
 
 
 # Схема получения списка получения пользователей
-def list_users(users) -> list:
+def list_users_entity(users) -> list:
     return [user_entity(user) for user in users]
